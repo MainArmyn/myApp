@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.item {
+    font-family: "Montserrat",Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-top: 1px solid #3CADFF;
+    box-sizing: border-box;  
+    transition: color;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+
+
+.item:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #3CADFF;  
+  }
+  
+  .item:hover .itemBtn {
+    background-color: #3CADFF;  
+    background-image: url("../assets/plus.svg");
+  }
+  
+  .item span {
+    display: inline;
+    animation: "appear";
+    width: 100%;
+    animation-duration: 700ms;
+  }
+  
+  .item p {
+    display: none;
+    font-size: 14px;
+    width: 100%;
+    animation: "disappear";
+    animation-duration: 900ms;
+  }
+  
+  
+  .itemActive:hover {
+    color: black; 
+    background: none !important;
+  }
+  
+  .itemActive:hover .itemBtn {
+    background-color: white;  
+    background-image: url("../assets/close.svg");
+  }
+  
+  
+  
+  
+  
+  .itemActive span {
+    display: none !important;
+  }
+  
+  .itemActive p {
+    display: block !important;
+    animation: "appear";
+    animation-duration: 900ms;
+  }
+  
+  .itemBtn {
+    color: #3CADFF;
+    border: none;
+    flex-shrink: 0;
+    display: block;
+    background-image: url("../assets/minus.svg");
+    background-color: white;
+    background-size: 40px 40px;
+    background-position: cover;
+    width: 40px;
+    height: 40px;
+    
+  }
+  
+  .itemBtnActive {
+    background-image: url("../assets/close.svg");
+  }

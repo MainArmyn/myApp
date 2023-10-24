@@ -1,0 +1,99 @@
+    @font-face {
+        font-family: "Montserrat";
+        src: url("../assets/Montserrat-VariableFont_wght.ttf");
+    }
+
+
+body {
+    margin: 0px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.headerRow:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.headerRowLogo {
+    width: 212px;
+    flex-shrink: 0;
+    height: 43px;
+}
+
+.headerRowInfo {
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.headerRowInfo span {
+    font-size: 20px;
+    font-family: "Montserrat";
+    margin-right: 20px;
+}
+
+
+.headerProfile {
+    padding: 12px 24px;
+    border: 1px solid #3CADFF;
+    background-color: transparent;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 18px;
+    color: #3CADFF;
+    font-family: "Montserrat";
+    gap: 10px;
+}
+
+.headerProfile:hover {
+    color: black;
+    background-color: #3CADFF;
+    transition: 200ms;
+}
+
+
+.headerRowInfo button:nth-child(2) img {
+    width: 27px;
+    height: 27px;
+}
+
+
+.headerRow:nth-child(2) {
+    background: #3CADFF;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 120px;
+}
+
+.headerRow:nth-child(2) ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerRow:nth-child(2) ul li {
+    margin: auto;
+  
+}
+
+.headerRow:nth-child(2) ul li a{
+    color: white;
+    font-family:  "Montserrat";
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+.headerRow:nth-child(2) ul li a:hover {
+    font-weight: 600;
+    transition: 200ms;
+}

@@ -1,0 +1,76 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1200px;
+    font-family: "Montserrat";
+}
+
+.img {
+    width: 94px !important;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 20px;
+    height: 80px !important;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+.info span {
+    color: var(--blue, #0E86F8);
+    /* ST2 */
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.option span {
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.count {
+    width: 120px;
+    text-align: right;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 162px;
+}
+
+.price span:nth-child(1) {
+    color: gray;
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+.sale {
+    width: 144px;
+    margin: auto;
+    text-align: right;
+}
+
+.sum {
+    width: 162px;
+    text-align: right;
+    margin: auto;
+    font-weight: 600;
+}

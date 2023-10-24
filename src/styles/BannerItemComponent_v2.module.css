@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 30px 24px;
+    box-sizing: border-box;
+    width: 48%;
+    border-radius: 28px;
+    background: var(--white, #FAFAFA);
+    box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+}
+
+.imgOrText {
+    width: 40%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    overflow: hidden;
+color: #000;
+text-overflow: ellipsis;
+
+/* ST2 */
+font-family: "Montserrat";
+font-size: 18px;
+margin-bottom: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.info span {
+    color: #000;
+/* text */
+font-family: "Montserrat";
+margin-bottom: 8px;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btns {
+    display: flex;
+    width: 100%;
+    gap: 13px;
+}
+
+.look {
+    display: flex;
+padding: 14px 32px;
+justify-content: center;
+color: white;
+font-family: "Montserrat";
+font-size: 16px;
+align-items: center;
+gap: 10px;
+border-radius: 14px;
+background: var(--blue, #0E86F8);
+border: none;
+}
+
+.look:hover {
+    transition: 200ms;
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.delete {
+    display: flex;
+    font-size: 16px;
+padding: 14px 32px;
+justify-content: center;
+color: #3CADFF;
+font-family: "Montserrat";
+align-items: center;
+gap: 10px;
+border-radius: 14px;
+border: 1px solid var(--light-blue, #3CADFF);
+background: var(--white, #FAFAFA);
+}
+
+.delete:hover {
+    color: white;
+    transition: 200ms;
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}

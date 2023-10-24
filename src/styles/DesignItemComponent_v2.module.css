@@ -1,0 +1,50 @@
+.item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.item:nth-child(1) {
+    margin-top: 1630px;
+}
+
+.item:last-child {
+    margin-bottom: 20px;
+}
+
+.designImg {
+    height: 427.683px;
+    width: 240px;
+    flex-shrink: 0;
+    border-radius: 18px;
+}
+
+.itemBtn {
+    padding: 14px 32px;
+    border-radius: 18px;
+    color: #3CADFF;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: var(--white, #FAFAFA);
+    width: 120px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.itemBtn:hover {
+    transition: 200ms;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+    color: white;
+    /* shadow-button */
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.activeBtn {
+    background-color: #3CADFF !important;
+    color: white !important;
+    background-image: url('../assets/check\ 1-2.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: 85px !important;
+    background-size: 20px 20px !important;
+}

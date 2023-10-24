@@ -1,0 +1,210 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+
+.title {
+    align-self: flex-start;
+    color: var(--black, #282828);
+
+/* H4 */
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width: 100%;
+    gap: 20px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 20px;
+}
+
+.days button {
+    border-radius: 12px;
+border: 1px solid var(--light-blue, #3CADFF);
+display: flex;
+font-family: "Montserrat";
+color: #3CADFF;
+padding: 8px 24px;
+cursor: pointer;
+background: white;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.days button:hover {
+    border: 1px solid var(--light-blue, #3CADFF);
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+/* shadow-button */
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+color: white;
+transition: 200ms;
+}
+
+.activeDay {
+    transition: 200ms;
+    background-color: #3CADFF !important;
+    color: white !important;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.numbersItem {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    align-items: flex-start;
+    border: 1px solid #3CADFF;
+    padding: 24px 30px;
+    font-family: "Montserrat";
+}
+
+.numbersItem span:nth-child(2) {
+    color: var(--light-blue, #3CADFF);
+
+    /* H4 */
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.ordersContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    max-width: 1200px;
+    min-width: 1200px;
+}
+
+.countOnPage {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
+
+.countOnPage ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-family: "Montserrat";
+}
+
+.countOnPage ul li {
+    cursor: pointer;
+}
+
+.activePage {
+    text-decoration: underline;
+
+}
+
+.storage {
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.ordersInfo {
+    display: flex;
+    width: 1200px;
+    padding: 20px 24px;
+    max-width: 1200px;
+    min-width: 1200px;
+    box-sizing: border-box;
+    background-color: #EEE;
+    border-radius: 16px;
+}
+
+.ordersInfo div {
+    display: flex;
+    margin: 0 7px;
+    box-sizing: border-box;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordersInfo div:nth-child(1) {
+   width: 192px;
+   text-align: center;
+}
+
+.ordersInfo div:nth-child(2) {
+    width: 232px;
+}
+
+.ordersInfo div:nth-child(3) {
+    width: 152px;
+    text-align: center;
+}
+
+.ordersInfo div:nth-child(4) {
+    width: 172px;
+}
+
+.ordersInfo div:nth-child(5) {
+    width: 152px;
+    text-align: center;
+}
+
+.ordersInfo div:nth-child(6) {
+    width: 102px;
+}
+
+
+
+.ordersInfo div img {
+    width: 28px;
+    height: 28px;
+}
+
+.ordersInfo div span {
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+
+.pages {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+.pages ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    font-family: "Montserrat";
+}
+
+.pages ul li {
+    cursor: pointer;
+}
+

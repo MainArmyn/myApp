@@ -1,0 +1,273 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    width: 100%;
+    padding: 40px 120px;
+    box-sizing: border-box;
+}
+
+.backBtn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+}
+
+.backBtn img {
+    width: 15.995px;
+    height: 10.01px;
+}
+
+.backBtn span {
+    overflow: hidden;
+color: var(--not-main-action, #747474);
+text-overflow: ellipsis;
+
+/* text */
+font-family: "Montserrat";
+font-size: 16px;
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.title {
+    color: var(--black, #282828);
+
+/* H4 */
+font-family: "Montserrat";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.formContainer {
+    display: flex;
+    gap: 30px;
+}
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.formContent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.example {
+    width: 183px;
+    position: relative;
+    margin-top: auto;
+    height: 147px;
+}
+
+.chooseImg {
+    width: 183px;
+    height: 147px;
+}
+
+.emptyInput {
+    width: 183px;
+    height: 147px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.emptyInput img {
+    width: 30px;
+    height: 30px;
+}
+
+.emptyInput span {
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+}
+
+.choosenImg {
+    width: 183px;
+    height: 147px;
+    border-radius: 20px;
+}
+
+.formContent  {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.formGroup span {
+    color: var(--black, #282828);
+
+/* SubTitle */
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.formGroup input {
+    border-radius: 12px;
+background: var(--white, #FAFAFA);
+box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+backdrop-filter: blur(2px);
+width: 250px;
+border: none;
+padding: 12px 20px;
+}
+
+.inputs {
+    display: flex;
+    gap: 20px;
+}
+
+.inputsColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    width: 20px;
+    padding: 7px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #0E86F8;
+}
+
+.number1 {
+    width: 20px;
+    padding: 7px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #0E86F8;
+    position: absolute;
+    top: 33px;
+    right: 50px;
+}
+
+.number2 {
+    width: 20px;
+    padding: 7px;
+    color: white;
+    text-align: center;
+    height: 20px;
+    border-radius: 12px;
+    background-color: #0E86F8;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.numbers {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.actionStatus {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.actionStatus span{
+    font-family: "Montserrat";
+}
+
+.statusBtns {
+    display: flex;
+    gap: 20px;
+}
+
+.statusBtns button {
+    display: flex;
+    color: #0E86F8;
+    font-family: "Montserrat";
+padding: 14px 32px;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+gap: 10px;
+border-radius: 18px;
+background: white;
+border: 1px solid #0E86F8;
+}
+
+.statusBtns button:hover {
+    transition: 200ms;
+   color: white;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.activeBtn {
+    background-color: #0E86F8 !important;
+    color: white !important;
+}
+
+.saveBtns {
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    justify-content: center;
+}
+
+.saveBtns button{
+    display: flex;
+    color: #0E86F8;
+    font-family: "Montserrat";
+    cursor: pointer;
+padding: 14px 50px;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+gap: 10px;
+border-radius: 18px;
+background: white;
+border: 1px solid #0E86F8;
+}
+
+.saveBtns button:hover {
+    transition: 200ms;
+   color: white;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}

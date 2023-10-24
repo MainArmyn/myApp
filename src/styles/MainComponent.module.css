@@ -1,0 +1,327 @@
+.container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 120px;
+    font-family: "Montserrat";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popupBtn {
+    border-radius: 12px;
+background: var(--white, #FAFAFA);
+box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+backdrop-filter: blur(2px);
+cursor: pointer;
+display: flex;
+padding: 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 12px;
+border: none;
+color: black;
+margin-bottom: 20px;
+align-self: flex-end;
+}
+
+[role='tooltip'].popup-content {
+    width: 500px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+
+  .popupContent {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+
+
+  .tooltip {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+
+
+.title {
+    color: var(--black, #282828);
+
+/* H4 */
+font-family: "Montserrat";
+margin-bottom: 20px;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+align-self: flex-start;
+text-transform: uppercase;
+}
+
+.text {
+    align-self: flex-start;
+    color: var(--black, #282828);
+
+/* SubTitle */
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.blockStorage {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    align-self: center;
+    align-items: center;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.statisticBlock {
+    display: flex;
+    width: 346px;
+padding: 40px 56px;
+flex-direction: column;
+align-items: center;
+gap: 32px;
+
+border-radius: 20px;
+justify-content: center;
+background: var(--white, #FAFAFA);
+box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.10);
+}
+
+.statisticSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.statisticSection span {
+    color: var(--black, #282828);
+
+/* ST2 */
+font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.statisticSectionShops {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.statisticSectionShops span:nth-child(1) {
+    color: var(--black, #282828);
+
+/* text */
+font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.statisticSectionShops span:nth-child(2) {
+color: var(--blue, #0E86F8);
+text-align: center;
+
+/* ST2 */
+font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.shopsBtn {
+    border: none;
+    background: transparent;
+    display: flex;
+    font-size: 14px !important;
+    cursor: pointer;
+    flex-shrink: 0;
+    gap: 5px;
+    align-items: center;
+    font-family: "Montserrat";
+}
+
+.shopsBtn img {
+    width: 14px;
+    height: 20px;
+}
+
+.statisticInfo {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.statisticInfo span:nth-child(1) {
+    color: var(--black, #282828);
+
+/* text */
+font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.statisticBtns {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+    gap: 8px;
+}
+
+.statisticBtns button {
+    border-radius: 12px;
+border: 1px solid var(--light-blue, #3CADFF);
+display: flex;
+flex-shrink: 0;
+flex-wrap: nowrap;
+background: white;
+cursor: pointer;
+padding: 8px 24px;
+color: #3CADFF;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.statisticBtns button:hover {
+    color: white;
+    transition: 200ms;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+
+/* shadow-button */
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+
+
+.stats {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.stats span {
+    color: var(--black, #282828);
+
+/* text */
+font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+flex-shrink: 0;
+font-weight: 400;
+line-height: normal;
+}
+
+.stats div {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+    flex-shrink: 0;  
+}
+
+.statsItem span:nth-child(2) {
+    color: var(--blue, #0E86F8);
+text-align: center;
+
+/* ST2 */
+font-family: "Montserrat";
+
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.orderBtn {
+    border-radius: 18px;
+border: 1px solid var(--light-blue, #3CADFF);
+background: var(--white, #FAFAFA);
+display: flex;
+color: #3CADFF;
+padding: 14px 32px;
+cursor: pointer;
+width: 100%;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.orderBtn:hover {
+    transition: 200ms;
+    color: white;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+
+/* shadow-button */
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.activeBtn {
+    transition: 200ms;
+    background: #0E86F8 !important;
+    color: white !important;
+}
+
+.btnsBlock {
+    flex-shrink: 0;
+    align-self: flex-start;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnBlock {
+    width: 286px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    border-radius: 18px;
+    border: none;
+background: var(--white, #FAFAFA);
+box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.10);
+}
+
+.btnBlock:hover {
+    color: #3CADFF;
+    transition: 200ms;
+}
+
+.btnBlock div {
+    width: 28px;
+    height: 28px;
+    background-image: url("../assets/icon\ add-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.btnBlock:hover div {
+    background-image: url("../assets/icon\ add-2.png");
+}
+
+
+
+

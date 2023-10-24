@@ -1,0 +1,105 @@
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.item div:nth-child(1) {
+    display: flex;
+padding: 28px 16px;
+justify-content: center;
+flex-shrink: 0;
+font-size: 16px;
+align-items: center;
+gap: 8px;
+font-family: "Montserrat";
+}
+
+.item div:nth-child(2) {
+    display: flex;
+padding: 28px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+text-align: center;
+color: var(--black, #282828);
+text-align: center;
+
+/* text */
+font-family: "Montserrat";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.item div:nth-child(3) {
+    display: flex;
+padding: 28px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+font-size: 16px;
+font-family: "Montserrat";
+}
+
+.item div:nth-child(4) {
+    display: flex;
+padding: 28px 16px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+font-size: 16px;
+text-align: center;
+font-family: "Montserrat";
+}
+
+.item div:nth-child(5) {
+    display: flex;
+padding: 28px 16px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+gap: 8px;
+font-size: 16px;
+font-family: "Montserrat";
+}
+
+.item div:nth-child(6) {
+    display: flex;
+padding: 28px 16px;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+gap: 8px;
+font-size: 16px;
+font-family: "Montserrat";
+}
+
+.item button {
+    display: flex;
+padding: 14px 32px;
+margin-right: 5px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 16px;
+border: 1px solid var(--light-blue, #3CADFF);
+background: var(--white, #FAFAFA);
+
+color: #3CADFF;
+cursor: pointer;
+}
+
+.item button:hover {
+    border: 1px solid var(--light-blue, #3CADFF);
+    color: white;
+    transition: 200ms;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+/* shadow-button */
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+
+
+}

@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+
+.shops {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.shopsTitle {
+    color: var(--black, #282828);
+
+/* H4 */
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.shopsStorage {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ 
+.shopAdd {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    width: 385px;
+    height: 234px;
+    border-radius: 12px;
+    gap: 27px;
+    background: var(--white, #FAFAFA);
+    box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopAdd:hover span{
+    color: #3CADFF;
+}
+
+.shopAdd img {
+    width: 40px;
+    height: 40px;
+}
+
+.shopAdd span {
+    color: var(--not-main-action, #747474);
+
+/* text */
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

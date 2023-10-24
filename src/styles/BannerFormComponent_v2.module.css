@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.backBtn {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
+}
+
+.backBtn img {
+    width: 15.995px;
+    height: 10.01px;
+}
+
+.backBtn span {
+    overflow: hidden;
+color: var(--not-main-action, #747474);
+text-overflow: ellipsis;
+
+/* text */
+font-family: "Montserrat";
+font-size: 16px;
+text-decoration: none;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.container {
+    width: 100%;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.title {
+    color: var(--black, #282828);
+
+/* H4 */
+font-family: "Montserrat";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.formInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.chooseImg {
+    width: 421.383px;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 356.502px;
+    flex-shrink: 0;
+}
+
+.choosenImg {
+    width: 421.383px;
+    height: 356.502px;
+}
+
+.emptyInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 356.502px;
+    border-radius: 20px;
+    width: 421.383px;
+    justify-content: center;
+    font-family: "Montserrat";
+    color: gray;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.emptyInput img {
+    width: 40px;
+    height: 40px;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.formInputs {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+
+.formGroup {
+    display: flex;
+    gap: 8px;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formGroup span {
+    color: var(--black, #282828);
+
+/* SubTitle */
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.formGroup input {
+    display: flex;
+padding: 12px 20px;
+justify-content: center;
+border: none;
+align-items: center;
+width: 244px;
+border-radius: 12px;
+background: var(--white, #FAFAFA);
+box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+backdrop-filter: blur(2px);
+gap: 10px;
+}
+
+.formStatus {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.formStatus span {
+    color: var(--black, #282828);
+
+/* SubTitle */
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btnStatus {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btnStatus button {
+    display: flex;
+    color: #0E86F8;
+    font-family: "Montserrat";
+padding: 14px 32px;
+cursor: pointer;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+gap: 10px;
+border-radius: 18px;
+background: white;
+border: 1px solid #0E86F8;
+}
+
+.btnStatus button:hover {
+    transition: 200ms;
+   color: white;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.activeBtn {
+    background-color: #0E86F8 !important;
+    color: white !important;
+}
+
+.saveBtns {
+    display: flex;
+    width: 100%;
+    gap: 60px;
+    justify-content: center;
+}
+
+.saveBtns button{
+    display: flex;
+    color: #0E86F8;
+    font-family: "Montserrat";
+    cursor: pointer;
+padding: 14px 50px;
+justify-content: center;
+align-items: center;
+font-size: 16px;
+gap: 10px;
+border-radius: 18px;
+background: white;
+border: 1px solid #0E86F8;
+}
+
+.saveBtns button:hover {
+    transition: 200ms;
+   color: white;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}

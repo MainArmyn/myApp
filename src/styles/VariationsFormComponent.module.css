@@ -1,0 +1,149 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 120px;
+    width: 100%;
+    gap: 60px;
+    box-sizing: border-box;
+}
+
+.formTitle {
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 0px;
+background: var(--light-blue, #3CADFF);
+text-align: center;
+color: var(--white, #FAFAFA);
+
+/* H3-tablet */
+font-family: "Montserrat";
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.formRow {
+    display: flex;
+    gap: 58px;
+    align-items: flex-start;
+}
+
+.formColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formColumn span {
+    color: var(--black, #282828);
+
+/* SubTitle */
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+margin-bottom: 12px;
+font-weight: 400;
+line-height: normal;
+}
+
+.formColumn input {
+    display: flex;
+width: 244px;
+padding: 12px 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 12px;
+background: var(--white, #FAFAFA);
+box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+backdrop-filter: blur(2px);
+border: none;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    gap: 20px;
+}
+
+.inputContainer  button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    background-image: url("../assets/icon\ addPlus.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 50px 44px;
+    background-position: left;
+    background-color: transparent;
+}
+
+.inputContainer button:hover {
+    background-image: url("../assets/Property\ 1=add-hover.png");
+    background-size: 60px 65px;
+}
+.formColumn p {
+    color: var(--black, #282828);
+text-align: justify;
+
+/* text-tablet */
+font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.createBtn {
+    border-radius: 18px;
+    font-size: 16px;
+    width: 269px;
+    padding: 14px 32px;
+background: var(--blue, #0E86F8);
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.createBtn:hover {
+    transition: 200ms;
+background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.listItem {
+    display: flex;
+    margin: 0;
+    width: 200px !important;
+    align-items: baseline;
+    font-size: 20px;
+    font-family: "Montserrat";
+    gap: 8px;
+}
+
+.listItem input {
+    width: auto;
+}
+
+.listItem button {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    background-image: url("../assets/Frame\ 872-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 10px 10px;
+    border: none;
+}

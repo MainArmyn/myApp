@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.container  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px 120px;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.title {
+    color: var(--black, #282828);
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 60px;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.text {
+    color: var(--black, #282828);
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 40px;
+    width: 692px;
+    line-height: normal;
+}
+
+.text span {
+    color: red;
+}
+
+.designContainer {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding-bottom: 37px;
+    border: 1px solid #0E86F8;
+    justify-content: center;
+    border-radius: 24px;
+    width: 100%;
+}
+
+.designContainerMenu {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.designContainerMenu li {
+    display: flex;
+    padding: 14px 32px;
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #0E86F8;
+    border-right: 1px solid #0E86F8;
+    color: #0E86F8;
+    gap: 10px;
+    margin: 0;
+    flex: 1 0 0;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Montserrat";
+}
+
+.designContainerMenu li:nth-child(1) {
+    border-right: 1px solid #0E86F8;
+    border-bottom: none;
+}
+
+.designContainer li:last-child {
+    border-right: none;
+}
+
+.design {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 20px;
+    border: 1px solid var(--light-blue, #3CADFF);
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    flex-direction: column;
+    margin-top: 60px;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 472px;
+    background: var(--white, #FAFAFA);
+    box-shadow: 0px 0px 0px 0px rgba(34, 34, 70, 0.12) inset, 3px 2px 7px 0px rgba(34, 34, 70, 0.12) inset, 12px 6px 14px 0px rgba(34, 34, 70, 0.10) inset, 27px 14px 18px 0px rgba(34, 34, 70, 0.06) inset, 48px 25px 22px 0px rgba(34, 34, 70, 0.02) inset, 74px 40px 24px 0px rgba(34, 34, 70, 0.00) inset;
+    padding-left: 20px;
+}
+
+.designContainer button {
+    padding: 14px 32px;
+    border-radius: 18px;
+    color: #3CADFF;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: var(--white, #FAFAFA);
+}
+
+.nextButton {
+    align-self: center;
+    display: flex;
+    width: 258px;
+    padding: 14px 32px;
+    margin-top: 80px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    gap: 10px;
+    border-radius: 18px;
+    border: 1px solid var(--gray, #ACACAC);
+    background: var(--white, #FAFAFA);
+}
+
+.activeBtn {
+    padding: 14px 32px !important;
+    border-radius: 18px !important;
+    align-self: center;
+    margin-top: 80px;
+    color: white !important;
+    cursor: pointer;
+    font-family: "Montserrat";
+    width: 258px;
+    border: 1px solid var(--light-blue, #3CADFF) !important;
+    background: var(--white, #3CADFF) !important;
+}
+
+.activeBtn:hover {
+    transition: 200ms;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+    color: white;
+    /* shadow-button */
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.info {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+    width: 970px;
+    gap: 20px;
+}
+
+.info p {
+    font-family: "Montserrat";
+}
+
+.info button {
+    padding: 14px 32px;
+    border-radius: 18px;
+    color: #3CADFF;
+    flex-shrink: 0;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: var(--white, #FAFAFA);
+    cursor: pointer;
+}
+
+
+.info button:hover {
+    transition: 200ms;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+    color: white;
+    /* shadow-button */
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+

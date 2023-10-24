@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.helpTitle {
+    padding: 0px 120px;
+    color: var(--black, #282828);
+
+/* H4 */
+font-family: "Montserrat";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}

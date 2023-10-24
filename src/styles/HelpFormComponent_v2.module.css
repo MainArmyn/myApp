@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.formContainer {
+    width: 100%;
+    padding: 40px 120px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.formTitle {
+    color: var(--black, #282828);
+/* SubTitle */
+    font-family: "Montserrat";
+    font-size: 20px;
+    width: 508px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form {
+    width: 508px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.info {
+    width: 100%;
+    display: flex;
+}
+
+
+.info input {
+    padding: 14px 20px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-right: 20px; 
+    width: 244px;
+    background: rgba(255, 255, 255, 0.73);
+    border: none;
+    box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+    backdrop-filter: blur(2px);
+}
+
+.form textarea {
+    width: 490px !important;
+    box-sizing: border-box;
+    border: none;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.73);
+    box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+    backdrop-filter: blur(2px);
+    padding: 14px 20px;
+}
+
+.send {
+    display: flex;
+    width: 244px;
+    padding: 14px 32px;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    align-self: center;
+    border-radius: 18px;
+    background: var(--blue, #0E86F8);
+}
+
+.send:hover {
+    transition: 200ms;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+
+    /* shadow-button */
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.check {
+    color: var(--, #5A5A5A);
+
+/* text 10 mobile */
+font-family: "Montserrat";
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+width: 222px;
+align-self: center;
+line-height: 140%; /* 14px */
+}
+
+.href {
+    color:  #5A5A5A;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-decoration-line: underline;
+}

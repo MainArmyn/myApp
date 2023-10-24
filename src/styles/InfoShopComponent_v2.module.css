@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 40px 120px;
+}
+
+.containerTitle {
+    color: var(--black, #282828);
+
+/* H4 */
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    width: 50%;
+}
+
+.formColumn {
+    display: flex;
+    margin-right: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.formGroup input {
+    border-radius: 12px;
+    border: none;
+    background: var(--white, #FAFAFA);
+    box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+    backdrop-filter: blur(2px);
+    font-family: "Montserrat";
+    padding: 12px 20px;
+}
+
+.formGroup textarea {
+    display: flex;
+    border: none;
+    width: 284px;
+    max-height: 170px;
+    max-width: 284px;
+    height: 170px;
+    padding: 12px 20px;
+    justify-content: center;
+    border-radius: 12px;
+    background: var(--white, #FAFAFA);
+    box-shadow: 0px 2px 8px 2px rgba(55, 55, 116, 0.15);
+    backdrop-filter: blur(2px);
+    align-items: center;
+    gap: 10px;
+}
+
+.formGroupTitle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.number {
+    display: flex;
+    padding: 8px 12px;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    border-radius: 12px;
+    border: 1px solid var(--white, #FAFAFA);
+    background: var(--blue, #0E86F8);
+    gap: 10px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    color: white;
+}
+
+.formGroupTitle span {
+    color: var(--black, #282828);
+
+/* SubTitle */
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logoInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logoInfo img {
+    width: 82px;
+    height: 82px;
+    border-radius: 16px;
+}
+
+.logoInfo p {
+    text-align: left;
+    color: var(--black, #282828);
+
+/* text-tablet */
+font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.statusBtns {
+    display: flex;
+}
+
+.statusBtn {
+    margin-right: 10px;
+    display: flex;
+    width: 184px;
+    padding: 14px 32px;
+    justify-content: center;
+    color: #0E86F8;
+    border-radius: 18px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: var(--white, #FAFAFA);
+}
+
+.statusBtn:hover {
+    transition: 200ms;
+    border: 1px solid var(--light-blue, #3CADFF);
+    color: white;
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+
+    /* shadow-button */
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+.activeBtn {
+    color: white;
+    background-color: #0E86F8;
+}
+
+.goTo {
+    color: var(--blue, #0E86F8);
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    width: 233px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.saveBtn {
+    margin-right: 10px;
+    display: flex;
+    width: 200px;
+    padding: 10px 32px;
+    margin-top: 60px;
+    flex-shrink: 0;
+    align-self: center;
+    color: white;
+    border-radius: 18px;
+    cursor: pointer;
+    font-family: "Montserrat";
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: var(--white, #0E86F8);
+}
+
+.saveBtn:hover {
+    transition: 200ms;
+    border: 1px solid var(--light-blue, #3CADFF);
+    color: white;
+    background: linear-gradient(321deg, #3CADFF 45.48%, #FFF 132.16%);
+
+    /* shadow-button */
+    box-shadow: 0px 0px 0px 0px rgba(17, 17, 34, 0.18), 0px 3px 6px 0px rgba(17, 17, 34, 0.18), 0px 11px 11px 0px rgba(17, 17, 34, 0.15), 0px 24px 14px 0px rgba(17, 17, 34, 0.09), 0px 43px 17px 0px rgba(17, 17, 34, 0.03), 0px 67px 19px 0px rgba(17, 17, 34, 0.00);
+}
+
+

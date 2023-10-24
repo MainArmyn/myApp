@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 158.09 212.42">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#outer-glow-2);
+      }
+
+      .cls-1, .cls-2 {
+        fill: #0088f7;
+      }
+
+      .cls-2 {
+        filter: url(#outer-glow-1);
+      }
+    </style>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="1"/>
+      <feFlood flood-color="#0088f7" flood-opacity=".8"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="1"/>
+      <feFlood flood-color="#0088f7" flood-opacity=".8"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <rect x="40.73" y="81.13" width="77.86" height="31.72"/>
+  <rect class="cls-2" x="46.49" y="88.34" width="17.3" height="17.3"/>
+  <rect class="cls-1" x="95.52" y="89.06" width="17.3" height="17.3"/>
+  <path d="m117.08,39.12h-4.42l16.26-16.26-15.71-15.71-31.97,31.97h-8.8L42.84,7.1l-15.71,15.71,16.31,16.31h-2.43c-10.58,0-20.06,4.26-28.44,12.79C4.19,60.43,0,70.28,0,81.45v69.45c0,11.17,4.19,21.02,12.57,29.55,8.38,8.53,17.86,12.79,28.44,12.79h23.59v19.18h31.09v-19.18h21.39c10.58,0,20.06-4.26,28.44-12.79,8.38-8.52,12.57-18.37,12.57-29.55v-69.45c0-11.17-4.19-21.02-12.57-29.55-8.38-8.52-17.86-12.79-28.44-12.79Zm9.92,111.79c0,3.09-.96,5.73-2.86,7.94-1.91,2.21-4.27,3.31-7.06,3.31h-21.39v-19.18h-31.09v19.18h-23.59c-2.79,0-5.15-1.1-7.06-3.31-1.91-2.21-2.86-4.85-2.86-7.94v-69.45c0-3.09.95-5.73,2.86-7.94,1.91-2.21,4.26-3.31,7.06-3.31h76.07c2.79,0,5.15,1.1,7.06,3.31,1.91,2.21,2.86,4.85,2.86,7.94v69.45Z"/>
+  <path d="m24.19,19.86l15.71-15.71-3.43-3.43c-1.59-1.59-5.28-.47-8.24,2.5l-4.97,4.97c-2.97,2.97-4.08,6.65-2.5,8.24l3.43,3.43Z"/>
+  <path d="m135.34,16.44c1.6-1.6.49-5.29-2.48-8.26l-4.97-4.97c-2.97-2.97-6.66-4.07-8.26-2.48l-3.45,3.45,15.71,15.71,3.45-3.45Z"/>
+</svg>

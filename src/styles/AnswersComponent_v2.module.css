@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+.answers {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    padding: 40px 120px;
+    flex-direction: column;
+  }
+
+  .answersTitle {
+    color: var(--light-blue, #3CADFF);
+
+    /* H3-tablet */
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  
+  .answersContainer {
+    width: 100%;
+  }

@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/Montserrat-VariableFont_wght.ttf");
+}
+
+
+
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 40px 120px; 
+}
+
+.productsTitle {
+    color:  #282828;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.productsAdd {
+    gap: 12px;
+    color: #3CADFF;
+    background-color: transparent;
+    border: none;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-family: "Montserrat";
+}
+
+.productsAdd:hover {
+    color: #0c79c6;
+    transition: 200ms;
+}
+
+.productsAdd span {
+    font-size: 16px;
+}
+
+.productsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 12px;
+}
+
+.productsInfo {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #EEE;
+    border-radius: 16px;
+}
+
+.productsInfo div {
+    padding: 24px 0px;
+    display: flex;
+    box-sizing: border-box;
+    background: transparent;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-shrink: 0;
+    
+}
+
+.productsInfo div:nth-child(2) {
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+}
+
+
+.productsInfo div img {
+    width: 28px;
+    height: 28px;
+}
+
+.productsInfo div span {
+    font-family: "Montserrat";
+    font-size: 18px;
+}
+
+
+.emptyMessage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.emptyMessage span {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.emptyMessage button {
+    padding: 14px 32px;
+    color: #3CADFF;
+    border-radius: 18px;
+    font-size: 16px;
+    border: 1px solid var(--light-blue, #3CADFF);
+    background: var(--white, #FAFAFA);
+}
+
+.emptyMessage button:hover {
+    background: #3CADFF;
+    color: white;
+    transition: 200ms;
+}
+
+

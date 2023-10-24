@@ -1,0 +1,170 @@
+.product {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.product div {
+    width: 19%;
+    margin-top: 20px;
+}
+
+.product div:nth-child(1) {
+    margin-left: 0px;
+}
+
+.dropdown {
+    display: inline-block;
+     position: relative;
+     z-index: 2;
+     max-width: 130px;
+     /* ... остальные стили компонента */
+}
+
+.dropdownToggle {
+  
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+    font-family: "Montserrat";
+}
+
+.dropdownToggle img {
+    width: 17px;
+    height: 17px;
+}
+
+
+  
+  .dropdownMenu {
+    display: block;
+    list-style: none;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 3;
+    position: absolute;
+    padding: 0;
+  }
+  
+  .dropdownMenu li {
+    background: #fff;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    cursor: pointer;
+  }
+  
+  .dropdownMenu li:hover {
+    background: #f1f1f1;
+  }
+
+  .productEmptyImg {
+    padding: 3px 2px;
+    color: var(--gray, #ACACAC);
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    width: 70px !important;
+    border: 1px solid #ACACAC;
+    border-radius: 18px;
+    height: 67px;
+    box-sizing: border-box;
+    line-height: 21px; /* 131.25% */
+  }
+
+  .productImg {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 20px;
+    width: 80px !important;
+  }
+
+  .productsImgContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: flex-start;
+  }
+
+  .productActualImage {
+    width: 80px !important;
+    height: 67px;
+  }
+
+  .productsImgContainer span {
+    color: var(--gray, #ACACAC);
+    /* text-tablet */
+    position: absolute;
+    top: 70px;
+    left: 17px;
+    width: 50px;
+    font-family: "Montserrat";
+    font-size: 12px;
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .productName {
+    overflow: hidden;
+    color: var(--black, #282828);
+    /* text */
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: flex-start;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+   
+  }
+
+  .productPrice {
+    color: gray;
+    font-family: "Montserrat";
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-decoration: line-through;
+  }
+
+  .productSalePrice {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-family: "Montserrat";
+  }
+
+  .productCategory {
+    font-family: "Montserrat";
+    font-size: 16px;
+  }
+
+  .productSubCategory {
+    font-family: "Montserrat";
+    font-size: 16px;
+  }
+
+  .productCorrect {
+    width: 40px !important;
+    min-width: 40px;
+    max-width: 40px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../assets/Edit.png");
+    background-position: center;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
